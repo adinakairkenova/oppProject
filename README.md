@@ -16,22 +16,22 @@ MediaLibrary — это десктоп-приложение на Java + Swing, �
 
 Проект разработан для демонстрации ООП-принципов, событийно-ориентированного программирования и простого GUI на Swing.
 
-Project Architecture
 MediaLibrary/
 ├── src/
-│   ├── MediaItem.java         # Абстрактный класс
-│   ├── Movie.java             # Класс фильма
-│   ├── Series.java            # Класс сериала
-│   ├── MediaLibrary.java      # Логика хранения данных
-│   ├── MediaLibraryGUI.java   # Графический интерфейс
-│   └── Main.java              # Консольный вход
-├── catalog.dat                # Сохранённая база
-├── catalog.txt                # Текстовая версия каталога
-├── photos/                    # Скриншоты проекта
+│   ├── MediaItem.java        # Абстрактный класс
+│   ├── Movie.java            # Класс фильма
+│   ├── Series.java           # Класс сериала
+│   ├── MediaLibrary.java     # Логика хранения данных
+│   ├── MediaLibraryGUI.java  # Графический интерфейс
+│   └── Main.java             # Консольный вход
+├── catalog.dat               # Сохранённая база
+├── catalog.txt               # Текстовая версия каталога
+├── photos/                   # Скриншоты проекта
 │   ├── gui.png
 │   ├── code_example.png
 │   └── ...
 └── README.md
+
 
 
 📁 src/ — весь код
